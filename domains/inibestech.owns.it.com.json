@@ -1,0 +1,16 @@
+{
+  "description": "My personal email domain",
+  "domain": "owns.it.com",
+  "subdomain": "inibestech",
+  "owner": {
+    "repo": "https://github.com/Inibest/register",
+    "email": "inibestech@gmail.com"
+  },
+  "record": {
+    "A": ["1.1.1.1"],
+    "AAAA": ["::1"],
+    "CNAME": "your-domain.com",
+    "TXT": ["verification=123"]
+  },
+  "proxied": false
+}
